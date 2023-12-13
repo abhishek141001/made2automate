@@ -20,10 +20,10 @@ const logout = async()=>{
 function Navi(){
 return(
     <div className="navBar">
-            <NavLink className= "navButton" to = "/order">Orders</NavLink>
-            <NavLink className= "navButton" to = "/total-details">Details</NavLink>
-            <NavLink className= "navButton" to = "/add-item">Add item</NavLink>
-            <div onClick={logout} className="navButton">logout</div>
+          <NavLink className= "navButton" to = "/order">Orders</NavLink>
+            <NavLink className= "navButton" to = "/">Details</NavLink>
+           <NavLink className= "navButton" to = "/add-item">Add item</NavLink>
+           <button onClick={logout} className="navButton">logout</button>
             </div>
 )
 }
