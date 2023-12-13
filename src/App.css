@@ -1,0 +1,96 @@
+.App{
+  background-color: black;
+  color: white;
+}
+
+.header{
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.logoName{
+  margin: 4px;
+  padding: 2px;
+  color: red;
+  text-decoration: none;
+}
+.totalDetail{
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.detailsBrief{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(112, 127, 144);
+}
+.detailsBriefBox{
+  background-color: gray;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 6px;
+}
+.detailValue{
+  font-size: xx-large;
+  margin: 2px;
+}
+.detailName{
+  font-size: small;
+}
+.orderedProductBox{
+  /* background-color: rgb(112, 127, 144); */
+  border-left: 4px solid red ;
+  padding: 5px;
+}
+.orderBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: center;
+color: white;
+margin-left: 40px;
+margin-right: 40px;
+
+}
+.priceStock{
+  display: flex;
+  flex-direction: row;
+}
+.orderName{
+  font-weight: bolder;
+}
+.priceNameStock_price{
+  font-weight: bolder;
+}
+.priceNameStock{
+  margin: 5px;
+}
+.orderButton{
+  margin: 5px;
+}
+.orderImg{
+  margin: 10px;
+  width: 180px;
+}
+.navButton{
+  text-decoration: none;
+  margin: 2px;
+  /* padding: 4px; */
+  color: white;
+  margin-right: 4px;
+}
+.navBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: center;
+background-color: aqua;
+}
+.name{
+  color: white;
+}
