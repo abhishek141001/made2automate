@@ -9,6 +9,7 @@ import AddItem from './pages/addItem';
 import Layout from './components/layout';
 import Home from './pages/home';
 import PrivateRoutes from './components/privateRoutes';
+import Footer from './components/footer';
 
 function App() {
 
@@ -44,7 +45,7 @@ function App() {
         </Routes>
     
     */}
-
+    <Footer/>
     </div>
 
   );

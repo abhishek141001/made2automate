@@ -94,18 +94,60 @@ background-color: white;
 .name{
   color: white;
 }
+.addItem{
+  height: 100%;
+ /* padding-bottom: 100%; */
+}
 .addForm{
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+.inputUpload{
+  margin: 12px;
+  padding: 6px;
+  
+}
 .input{
-  margin: 4px;
+  border-radius: 4px;
+  margin: 12px;
+  padding: 6px;
+  
   width: 40%;
+}
+.inputAuth{
+  border-radius: 4px;
+  margin: 12px;
+  padding: 6px;
+  width: 20%;
 }
 .btn1{
   margin: 4px;
   margin-left: 15px;
   margin-right: 15px;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainBox{
+min-height: 90vh;
+/* border: 2px white; */
+}
+.fullbg{
+  background-color: black;
+}
+.authContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }

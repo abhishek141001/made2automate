@@ -2,6 +2,7 @@ import { Navigate, Outlet } from "react-router-dom"
 import { useEffect, useState } from "react"
 import Header from "./header"
 import Navi from "./nav"
+import Footer from "./footer"
 
 const PrivateRoutes = ()=>{
     
@@ -13,11 +14,15 @@ const PrivateRoutes = ()=>{
          },1000)
     },[])
     return user? ( 
-        <>
+        <div className="fullbg">
         <Header/>
         <Navi/>
+        <div className="mainBox">
         <Outlet/>
-        </>
+        </div>
+        <Footer/>
+        
+        </div>
         
     ):<Navigate to={"/login"}/>
 }

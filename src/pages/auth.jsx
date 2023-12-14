@@ -66,13 +66,13 @@ const Auth = ()=>{
         
         <>
         <Header/>
-       
-        <div className="register">
+       <div className="mainBox">
+        <div className="authContainer">
             <p className="authHead">Register</p>
-            <input type="email" placeholder="email" onChange={(e)=>{
+            <input type="email" placeholder="email" className="inputAuth" onChange={(e)=>{
                 setRegisterEmail(e.target.value)
             }}/>
-             <input type="password" placeholder="password" onChange={(e)=>{
+             <input type="password" placeholder="password" className="inputAuth" onChange={(e)=>{
                 setRegisterPassword(e.target.value)
              }}/>
              <button value="register" onClick={register}>Register</button>
@@ -80,19 +80,18 @@ const Auth = ()=>{
         </div>
         <div className="authContainer">
             <p className="authHead">Login</p>
-             <input type="email" placeholder="email" onChange={(e)=>{
+             <input type="email" placeholder="email" className="inputAuth" onChange={(e)=>{
                 setLoginEmail(e.target.value)
              }}/>
-             <input type="password" placeholder="password" onChange={(e)=>{
+             <input type="password" placeholder="password" className="inputAuth" onChange={(e)=>{
                 setLoginPassword(e.target.value)
              }}/>
              <button value="login" onClick={login}>Login</button>
 
         </div>
-        <button onClick={logout}>signout</button>
-        <div className="name">{auth.currentUser ? auth.currentUser.email : null}</div>
-
         
+
+        </div>
         </>
     )
             

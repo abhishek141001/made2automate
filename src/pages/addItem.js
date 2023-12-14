@@ -2,6 +2,7 @@ import React from "react";
 
 function AddItem(){
     const handleSubmit = ()=>{
+        
         return(
             <div>Item added successfully</div>
         )
@@ -9,7 +10,7 @@ function AddItem(){
     return(
         <div className="addItem">
             <form className="addForm">
-            <input type="file" id="myFile" name="filename"/>
+            <input type="file" id="myFile" name="filename" className="inputUpload"/>
                 <input type="text" className="input" placeholder="Add product name here"/>
                 <input type="text" className="input" placeholder="productId"/>
                 <input type="text" className="input" placeholder="Manufactrer name"/>
